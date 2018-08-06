@@ -11,7 +11,15 @@ namespace TrackTrace
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Label1.Visible = false;
 
+        }
+
+        protected void SubmitButton_Click(object sender, EventArgs e)
+
+        {
+            //display output
+            Label1.Text = fname.Value + lname.Value + password.Value + email.Value; 
         }
     }
 }

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\HP\Documents\MyWebsites\WebSite</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>02/22/2013 08:43:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/25/2013 15:40:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/TrackTrace.dll">
+      <publishTime>08/03/2018 16:48:23</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>07/17/2013 17:03:52</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>08/03/2018 15:45:45</publishTime>
+    </File>
+    <File Include="form - Copy.html">
+      <publishTime>08/02/2018 17:32:52</publishTime>
+    </File>
+    <File Include="form.html">
+      <publishTime>08/03/2018 15:05:00</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>08/03/2018 12:22:04</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>08/03/2018 12:04:52</publishTime>
+    </File>
+    <File Include="Source/masterpages/kqcargo.Master">
+      <publishTime>08/03/2018 15:45:54</publishTime>
+    </File>
+    <File Include="static/css/custom.css">
+      <publishTime>08/02/2018 18:25:51</publishTime>
+    </File>
+    <File Include="static/css/fonts/Montserrat-Black.ttf">
+      <publishTime>08/02/2018 17:18:38</publishTime>
+    </File>
+    <File Include="static/css/fonts/Montserrat-BlackItalic.ttf">
+      <publishTime>08/02/2018 17:18:38</publishTime>
+    </File>
+    <File Include="static/css/fonts/Montserrat-Bold.ttf">
+      <publishTime>08/02/2018 17:18:38</publishTime>
+    </File>
+    <File Include="static/css/fonts/Montserrat-BoldItalic.ttf">
+      <publishTime>08/02/2018 17:18:38</publishTime>
+    </File>
+    <File Include="static/css/fonts/Montserrat-ExtraBold.ttf">
+      <publishTime>08/02/2018 17:18:38</publishTime>
+    </File>
+    <File Include="static/css/fonts/Montserrat-ExtraBoldItalic.ttf">
+      <publishTime>08/02/2018 17:18:38</publishTime>
+    </File>
+    <File Include="static/css/fonts/Montserrat-ExtraLight.ttf">
+      <publishTime>08/02/2018 17:18:38</publishTime>
+    </File>
+    <File Include="static/css/fonts/Montserrat-ExtraLightItalic.ttf">
+      <publishTime>08/02/2018 17:18:38</publishTime>
+    </File>
+    <File Include="static/css/fonts/Montserrat-Italic.ttf">
+      <publishTime>08/02/2018 17:18:38</publishTime>
+    </File>
+    <File Include="static/css/fonts/Montserrat-Light.ttf">
+      <publishTime>08/02/2018 17:18:38</publishTime>
+    </File>
+    <File Include="static/css/fonts/Montserrat-LightItalic.ttf">
+      <publishTime>08/02/2018 17:18:38</publishTime>
+    </File>
+    <File Include="static/css/fonts/Montserrat-Medium.ttf">
+      <publishTime>08/02/2018 17:18:38</publishTime>
+    </File>
+    <File Include="static/css/fonts/Montserrat-MediumItalic.ttf">
+      <publishTime>08/02/2018 17:18:38</publishTime>
+    </File>
+    <File Include="static/css/fonts/Montserrat-Regular.ttf">
+      <publishTime>08/02/2018 17:18:38</publishTime>
+    </File>
+    <File Include="static/css/fonts/Montserrat-SemiBold.ttf">
+      <publishTime>08/02/2018 17:18:38</publishTime>
+    </File>
+    <File Include="static/css/fonts/Montserrat-SemiBoldItalic.ttf">
+      <publishTime>08/02/2018 17:18:38</publishTime>
+    </File>
+    <File Include="static/css/fonts/Montserrat-Thin.ttf">
+      <publishTime>08/02/2018 17:18:38</publishTime>
+    </File>
+    <File Include="static/css/fonts/Montserrat-ThinItalic.ttf">
+      <publishTime>08/02/2018 17:18:38</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/03/2018 16:48:24</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

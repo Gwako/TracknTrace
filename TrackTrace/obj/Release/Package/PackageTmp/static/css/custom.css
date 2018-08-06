@@ -1,0 +1,245 @@
+/***FONTS****/
+@font-face {
+    font-family: 'RalewayMedium';
+    src: url('fonts/Raleway-Medium.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'RalewayBold';
+    src: url('fonts/Raleway-ExtraBold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('fonts/Montserrat-SemiBold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('fonts/Montserrat-Medium.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'latomedium';
+    src: url('fonts/lato-medium-webfont.woff2') format('woff2'), url('fonts/lato-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* set all tags to default */
+* {
+    padding: 0px 0px 0px 0px;
+    background-color: transparent;
+    vertical-align: baseline;
+    width: 100%;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+/* Style the header */
+.header {
+    background-color: #666;
+    padding: 30px 30px 30px 30px;
+    text-align: center;
+    font-size: 3.4em;
+    color: #ffffff;
+    width: 100%;
+    font-family: 'RalewayBold', sans-serif;
+}
+/* Style the footer */
+.footer {
+    background-color: #777;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    font-family: 'RalewayMedium', sans-serif;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-weight: bold;
+}
+
+/* Style all col-75s */
+
+.container #ContentPlaceHolder1_fname, #ContentPlaceHolder1_lname, #ContentPlaceHolder1_password, #ContentPlaceHolder1_email {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background-color: #ffffff;
+    font-family: 'Montserrat-Medium', sans-serif;
+    margin-bottom: 10px;
+}
+
+/* Style submit button */
+
+.container .btn-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-family: 'Montserrat-Medium', sans-serif;
+    max-width: 40%;
+}
+
+    .container .btn-button:hover {
+        background-color: #45a049;
+    }
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    font-family: 'latomedium', sans-serif;
+    padding: 40px 100px 20px 100px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/**Responsiveness**/
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    .col-75 {
+        width: 75%;
+        margin-top: 6px;
+    }
+
+    .col-25 {
+        width: 25%;
+        margin-top: 6px;
+    }
+
+    .container {
+        padding: 50px 250px 20px 270px;
+    }
+
+    .header {
+        padding: 10px 380px 20px 0px;
+    }
+
+    .container #submit {
+        max-width: 20%;
+    }
+}
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .col-75 {
+        width: 75%;
+        margin-top: 6px;
+    }
+
+    .col-25 {
+        width: 25%;
+        margin-top: 6px;
+    }
+}
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .col-75 {
+        width: 75%;
+        margin-top: 6px;
+    }
+
+    .container {
+        height: -webkit-fill-available;
+        padding: 50px 130px 0px 130px;
+    }
+
+    .col-25 {
+        width: 25%;
+        margin-top: 6px;
+    }
+
+    .container #submit {
+        max-width: 20%;
+    }
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .col-25, .col-75, #submit {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 376px) and (max-width: 425px) {
+    .col-25, .col-75, #submit {
+        width: 100%;
+        margin-top: 0;
+    }
+    /* Style the header */
+    .header {
+        font-size: 1.9em;
+    }
+
+    .container {
+        padding: 45px 40px 20px 70px;
+    }
+
+        .container #submit {
+            max-width: 50%;
+        }
+}
+
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .col-25, .col-75, #submit {
+        width: 100%;
+        margin-top: 0;
+    }
+    /* Style the header */
+    .header {
+        font-size: 1.85em;
+    }
+
+    .container {
+        padding: 20px;
+    }
+}
