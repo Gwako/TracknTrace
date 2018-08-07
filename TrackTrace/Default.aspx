@@ -3,52 +3,26 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+</asp:Content><asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <!-- header-->
     <header class="header">
         <h2>Registration Form</h2>
     </header>
     <div class="container">
-        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+      
         <!-- firstname -->
         <div class="row">
             <div class="col-25">
-                <label for="fname">First Name</label>
+                <label for="fname">Airway Bill Number [AWB]</label>
             </div>
             <div class="col-75">
-                <input type="text" id="fname" name="firstname" placeholder="Enter first name" required="" runat="server" />
+                <input type="text" id="awb_number" name="awb_number" placeholder="Enter your number" required="" runat="server" />
             </div>
-        </div>
-        <!-- lastname -->
-        <div class="row">
-            <div class="col-25">
-                <label for="lname">Last Name</label>
-            </div>
-            <div class="col-75">
-                <input type="text" id="lname" name="lastname" placeholder="Enter last name" required="" runat="server" />
-            </div>
-        </div>
-        <!-- password -->
-        <div class="row">
-            <div class="col-25">
-                <label for="password">Password</label>
-            </div>
-            <div class="col-75">
-                <input type="password" id="password" name="password" placeholder="Enter password" required="" runat="server" />
-            </div>
-        </div>
-        <!-- Email-->
 
-        <div class="row">
-            <div class="col-25">
-                <label for="email">Email</label>
-            </div>
-            <div class="col-75">
-                <input type="text" id="email" name="email" placeholder="Enter email" required="" runat="server" />
-            </div>
         </div>
-        <!-- submit button-->
+        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+      
+        <!--submit button-->
         <div class="row">
             <asp:Button ID="SubmitButton" runat="server" Text="Submit" CssClass="btn-button" OnClick="SubmitButton_Click" />
         </div>

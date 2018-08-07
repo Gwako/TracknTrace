@@ -67,7 +67,7 @@ label {
 
 /* Style all col-75s */
 
-.container #ContentPlaceHolder1_fname, #ContentPlaceHolder1_lname, #ContentPlaceHolder1_password, #ContentPlaceHolder1_email {
+.container #ContentPlaceHolder1_fname, #ContentPlaceHolder1_awb_number, #ContentPlaceHolder1_lname, #ContentPlaceHolder1_password, #ContentPlaceHolder1_email {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;

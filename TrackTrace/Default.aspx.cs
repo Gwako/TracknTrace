@@ -19,7 +19,7 @@ namespace TrackTrace
 
         {
             //display output
-            Label1.Text = fname.Value + lname.Value + password.Value + email.Value; 
+            Response.Redirect("/Track-and-Trace.aspx?awb=" + awb_number.Value);
         }
     }
 }
